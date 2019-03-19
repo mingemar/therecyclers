@@ -1,0 +1,132 @@
+body {
+  background-color: #fffaf9;
+  text-align: center;
+}
+
+header {
+  display: block;
+  width: 100%;
+  height: 300px;
+  position: fixed;
+  background-color: #fffae5;
+}
+.logo {
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 300px;
+  width: 300px;
+
+}
+
+.pages {
+  list-style-type: none;
+  margin: 0 auto;
+  width: 200px;
+  color: green;
+  background-color: #fffae5;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+  }
+.menyer {
+  color: green;
+  display: block;
+  padding: 8px 0 16px 30px;
+  text-decoration: none;
+  text-align: center;
+}
+.menyer :hover {
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color: #fffae5;
+  color: #a39882;
+}
+
+
+button {
+  color: green;
+  background-color: white;
+  border-radius: 20px;
+}
+a {
+  color: green;
+  font-family: 'Aleo', serif;
+  text-decoration: none;
+}
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+#grid-container {
+  padding: 300px 0 0 20%;
+  display: grid;
+  grid-column-gap: 50px;
+  grid-template-columns: auto auto auto;
+  padding-bottom: 2.5rem;
+}
+p {
+  font-family: 'Lato', sans-serif;
+}
+
+#headline h1 {
+  position: absolute;
+  margin: 0 auto;
+  top: 100px;
+  left: 320px;
+  font-family: 'Aleo', serif;
+  font-style:  ;
+  color: #a39882;
+  text-align: left;
+  font-size: 50px;
+}
+
+#headline h2 {
+  position: absolute;
+  margin: 0 auto;
+  top: 150px;
+  left: 320px;
+  font-family: 'Aleo', serif;
+  font-style: italic ;
+  color: #a39882;
+  text-align: left;
+  font-size: 30px;
+}
+.grid-item {
+  display: grid;
+  float: left;
+    text-align: left;
+    }
+
+  #bike-man {
+
+    height: 50%;
+    width: 50%;
+
+  }
+
+  #energy {
+    height: 50%;
+    width: 50%;
+  }
+  #footer {
+    display: block;
+    width: 100%;
+    padding: 100px 20px 20px 20px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 10px;
+    height: 2.5rem; ;
+  }
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+      }
+
+  .fa:hover {
+    opacity: 0.5;
+  }
