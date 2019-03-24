@@ -70,6 +70,7 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+
 #headline h1 {
   position: absolute;
   margin: 0 auto;
@@ -110,15 +111,18 @@ p {
     height: 50%;
     width: 50%;
   }
+
   #footer {
     display: block;
     width: 100%;
-    padding: 100px 20px 20px 20px;
+    text-align: center;
     margin: 0 auto;
     position: absolute;
     bottom: 10px;
     height: 2.5rem; ;
   }
+
+
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -129,4 +133,40 @@ p {
 
   .fa:hover {
     opacity: 0.5;
+  }
+
+  /**css for bike page**/
+
+  #page-wrap {
+    min-height: 100%;
+    margin-bottom: -110px;
+  }
+  #page-wrap:after {
+    content: "";
+    display: block;
+  }
+  #footerbike, #page-wrap:after {
+    height: 110px;
+  }
+
+  #bikeh1 {
+      font-family: 'Aleo', serif;
+  }
+
+  #bikeh2 {
+    font-family: 'Aleo', serif;
+  }
+
+  #bikeform {
+      font-family: 'Aleo', serif;
+  }
+
+  #bikelogo img {
+    width: 200px;
+    margin-right: 5px;
+  }
+
+  #bikebody {
+    padding-bottom: 50px;
+    background-color: #fffae5;
   }
