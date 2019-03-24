@@ -70,6 +70,7 @@ p {
   font-family: 'Lato', sans-serif;
 }
 
+
 #headline h1 {
   position: absolute;
   margin: 0 auto;
@@ -110,15 +111,18 @@ p {
     height: 50%;
     width: 50%;
   }
+
   #footer {
     display: block;
     width: 100%;
-    padding: 100px 20px 20px 20px;
+    text-align: center;
     margin: 0 auto;
     position: absolute;
     bottom: 10px;
     height: 2.5rem; ;
   }
+
+
   .fa {
     padding: 20px;
     font-size: 30px;
@@ -129,4 +133,103 @@ p {
 
   .fa:hover {
     opacity: 0.5;
+  }
+
+  /**css for bike and contact page**/
+
+  #page-wrap {
+    min-height: 100%;
+    margin-bottom: -110px;
+  }
+  #page-wrap:after {
+    content: "";
+    display: block;
+  }
+  #footerbike, #page-wrap:after {
+    height: 110px;
+  }
+
+  #bikeh1 {
+      font-family: 'Aleo', serif;
+      margin-top: 0px;
+  }
+
+  #bikeh2 {
+    font-family: 'Aleo', serif;
+  }
+
+  #bikeform {
+      font-family: 'Aleo', serif;
+  }
+
+  #bikelogo img {
+    width: 200px;
+    margin-right: 5px;
+  }
+
+  #bikebody {
+    padding-bottom: 50px;
+    background-color: #fffae5;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Lato;
+    font-size: 16px;
+  }
+
+  input[type=submit] {
+    width: 100%;
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  #bikeform {
+    width: 80%;
+    background-color: #D5DAC6;
+    background-size: contain;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 15px;
+  }
+
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 30px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #D5DAC6;
+  }
+
+  #navbar li {
+    float: left;
+  }
+
+  #navbar li a {
+    display: block;
+    color: green;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Lato;
+  }
+
+  #navbar li a:hover {
+    background-color: #b5bca0;
   }
