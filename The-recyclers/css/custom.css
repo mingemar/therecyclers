@@ -1,0 +1,15 @@
+.navbar-light .navbar-nav .nav-link {
+  color: green;
+  font-size: 20px;
+  font-weight: bold;
+}
+.navbar-light .navbar-nav {
+  background-color: #fff;
+  }
+
+.navbar-light {
+ background-color: #fff;
+}
+.navbar-light .form-inline .form-control {
+  background-color: #fff;
+}

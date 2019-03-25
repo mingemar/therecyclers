@@ -1,127 +1,134 @@
 body {
   background-color: #fffaf9;
   text-align: center;
+  background-image: url("../images/london.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  }
+
+
+  .navbar-brand img {
+    background-repeat: no-repeat;
+    background-size: auto;
+    padding: 0 0;
+    margin: 0 auto;
+    height: 5vh;
+    width: 5vh;
+  }
+li  {
+   color: green;
 }
 
 header {
   display: block;
   width: 100%;
-  height: 300px;
-  position: fixed;
-  background-color: #fffae5;
-}
-.logo {
-  background-image: url("../images/logo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 300px;
-  width: 300px;
-
-}
-
-.pages {
-  list-style-type: none;
-  margin: 0 auto;
-  width: 200px;
-  color: green;
-  background-color: #fffae5;
   height: 100%;
-  position: fixed;
-  overflow: auto;
+  position: relative;
+  top: 100px;
+  padding: 20px 0px 20px 0px;
   }
-.menyer {
-  color: green;
+
+.logo {
+  padding: 0;
+  margin: 0 auto;
+  height: 60vh;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.6);
+}
+.logo img {
   display: block;
-  padding: 8px 0 16px 30px;
-  text-decoration: none;
-  text-align: center;
-}
-.menyer :hover {
-  padding: 8px 16px;
-  text-decoration: none;
-  background-color: #fffae5;
-  color: #a39882;
+  height: 50vh;
+  width: 50vh;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
 }
 
 
-button {
-  color: green;
-  background-color: white;
-  border-radius: 20px;
-}
 a {
   color: green;
   font-family: 'Aleo', serif;
   text-decoration: none;
+
 }
+
 #page-container {
   position: relative;
-  min-height: 100vh;
+  max-height: 2814px;
 }
 
-#grid-container {
-  padding: 300px 0 0 20%;
-  display: grid;
-  grid-column-gap: 50px;
-  grid-template-columns: auto auto auto;
-  padding-bottom: 2.5rem;
-}
+
 p {
   font-family: 'Lato', sans-serif;
+
 }
 
-
-#headline h1 {
-  position: absolute;
-  margin: 0 auto;
-  top: 100px;
-  left: 320px;
-  font-family: 'Aleo', serif;
-  font-style:  ;
-  color: #a39882;
-  text-align: left;
-  font-size: 50px;
+.content {
+  height: 25vh;
+}
+.aboutpage {
+  text-align: center;
 }
 
-#headline h2 {
-  position: absolute;
-  margin: 0 auto;
-  top: 150px;
-  left: 320px;
-  font-family: 'Aleo', serif;
-  font-style: italic ;
-  color: #a39882;
-  text-align: left;
-  font-size: 30px;
+.col-6 h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    color: green;
+
 }
-.grid-item {
-  display: grid;
-  float: left;
-    text-align: left;
-    }
+.col-6 a {
+  color: green;
+}
+.col-6 {
+  display: inline-block;
+  background-color: rgba(255, 255, 255, 0.8);
+  position: relative;
+  padding: 50px 20px 50px 20px;
+  margin: 1vh 1vh 1vh 1vh;
 
-  #bike-man {
+}
+#newbusiness {
 
-    height: 50%;
-    width: 50%;
+  margin-top: 1%;
 
-  }
+}
+#idea {
 
-  #energy {
-    height: 50%;
-    width: 50%;
-  }
+  margin-top: 1%;
+  padding: 5vh;
+}
+#footprint {
 
-  #footer {
+  margin-top: 1%;
+  padding-top: 10px;
+}
+#duncan {
+
+  margin-top: 1%;
+  background-color: rgba(255, 255, 255, 0.23);
+  border-radius: 50%;
+}
+#duncan h2 {
+color: white;
+float: none;
+font-style: italic;
+font-size: 15px;
+text-align: center;
+background-color: black;
+margin-top: 0
+}
+#footer {
     display: block;
     width: 100%;
-    text-align: center;
+    padding: 0;
     margin: 0 auto;
-    position: absolute;
+    position: relative;
     bottom: 10px;
-    height: 2.5rem; ;
+    height: 10%;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.8);
   }
-
 
   .fa {
     padding: 20px;
@@ -133,103 +140,14 @@ p {
 
   .fa:hover {
     opacity: 0.5;
-  }
-
-  /**css for bike and contact page**/
-
-  #page-wrap {
-    min-height: 100%;
-    margin-bottom: -110px;
-  }
-  #page-wrap:after {
-    content: "";
-    display: block;
-  }
-  #footerbike, #page-wrap:after {
-    height: 110px;
-  }
-
-  #bikeh1 {
-      font-family: 'Aleo', serif;
-      margin-top: 0px;
-  }
-
-  #bikeh2 {
-    font-family: 'Aleo', serif;
-  }
-
-  #bikeform {
-      font-family: 'Aleo', serif;
-  }
-
-  #bikelogo img {
-    width: 200px;
-    margin-right: 5px;
-  }
-
-  #bikebody {
-    padding-bottom: 50px;
-    background-color: #fffae5;
-  }
-
-  input[type=text], select, textarea {
-    width: 100%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    font-family: Lato;
-    font-size: 16px;
-  }
-
-  input[type=submit] {
-    width: 100%;
-    background-color: green;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-  }
-
-  input[type=submit]:hover {
-    background-color: #45a049;
-  }
-
-  #bikeform {
-    width: 80%;
-    background-color: #D5DAC6;
-    background-size: contain;
-    display: inline-block;
-    padding: 20px;
-    border-radius: 15px;
-  }
-
-  #navbar ul {
-    list-style-type: none;
-    margin: 0;
-    margin-bottom: 30px;
-    padding: 0;
-    overflow: hidden;
-    background-color: #D5DAC6;
-  }
-
-  #navbar li {
-    float: left;
-  }
-
-  #navbar li a {
-    display: block;
-    color: green;
-    text-align: center;
-    padding: 14px 16px;
+    color: black;
     text-decoration: none;
-    font-family: Lato;
   }
-
-  #navbar li a:hover {
-    background-color: #b5bca0;
+  .social a {
+    color: green;
+    text-decoration: none;
   }
+  .madeby a {
+  color: green;
+  text-decoration: none;
+}
