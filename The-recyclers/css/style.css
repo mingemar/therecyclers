@@ -67,6 +67,8 @@ p {
 .content {
   height: 25vh;
 }
+
+/*About page css */
 .aboutpage {
   text-align: center;
 }
@@ -150,4 +152,30 @@ margin-top: 0
   .madeby a {
   color: green;
   text-decoration: none;
+}
+
+/*Bike with us page css*/
+#bikeform {
+  width: 80%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.1);
+  background-size: contain;
+  display: inline-block;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+
+#bikeh1 {
+  font-family: 'Aleo', serif;
+  margin-top: 0px;
+  color: green;
+}
+
+#bikeh2 {
+padding-bottom: 50px;
+font-family: 'Aleo', serif;
+color: #000;
+font-weight: bold;
 }
