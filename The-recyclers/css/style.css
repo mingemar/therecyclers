@@ -107,9 +107,12 @@ p {
 }
 #duncan {
 
-  margin-top: 1%;
-  background-color: rgba(255, 255, 255, 0.23);
-  border-radius: 50%;
+  margin-top: -100%;
+  background-color: rgba(255, 255, 255, 0);
+  position: relative;
+  left: 20%;
+  bottom: -40px;
+
 }
 #duncan h2 {
 color: white;
@@ -120,6 +123,7 @@ text-align: center;
 background-color: black;
 margin-top: 0
 }
+
 #footer {
     display: block;
     width: 100%;
@@ -173,11 +177,16 @@ max-height: 2814px;
   padding: 20px;
   border-radius: 15px;
 }
+#submitbutton {
+  display: inline-block;
+}
 
 #bikeh1 {
   font-family: 'Aleo', serif;
   margin-top: 0px;
   color: green;
+  font-size: 40px;
+  font-weight: bold;
 }
 
 #bikeh2 {
@@ -190,16 +199,19 @@ font-weight: bold;
 /*Contact page css*/
 
 #contactform {
-  width: 60%;
-  height: auto;
+  width: 80%;
   margin: 0 auto;
   background-color: rgba(0, 0, 0, 0.1);
   background-size: contain;
   display: inline-block;
-  padding: 1% 1% 1% 1%;
+  padding: 20px;
   border-radius: 15px;
+  position: relative;
 }
-
+#contactpage {
+  max-height: 2814px;
+  max-width: 100%;
+}
 
 .text {
   width: 100%;
