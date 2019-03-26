@@ -25,7 +25,8 @@ header {
   width: 100%;
   height: 100%;
   position: relative;
-  top: 150px;
+  top: 50%;
+  bottom: 50%;
   padding: 20px 0px 20px 0px;
   }
 
@@ -34,7 +35,7 @@ header {
   margin: 0 auto;
   height: 60vh;
   width: 100%;
-  background: rgba(255, 255, 255, 0.40);
+  background: rgba(255, 255, 1, 0.9);
 }
 .logo img {
   display: block;
@@ -133,7 +134,7 @@ margin-top: 0
     bottom: 1vh;
     height: 10%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(189, 195, 199, 0.9);
     color: black;
     }
 
@@ -169,10 +170,10 @@ max-height: 2814px;
 }
 
 #bikeform {
-  width: 50%;
+  width: 80%;
   height: auto;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.1);
   background-size: contain;
   display: inline-block;
   padding: 20px;
@@ -180,9 +181,6 @@ max-height: 2814px;
 }
 #submitbutton {
   display: inline-block;
-}
-#submitbuttonbike {
-    display: inline-block;
 }
 
 #bikeh1 {
@@ -203,9 +201,9 @@ font-weight: bold;
 /*Contact page css*/
 
 #contactform {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
-  background-color: rgba(255, 255, 255, 0.4);
+  background-color: rgba(0, 0, 0, 0.1);
   background-size: contain;
   display: inline-block;
   padding: 20px;
@@ -225,7 +223,7 @@ font-weight: bold;
   position: relative;
 }
 #notes {
-  height:20vh;
+  height:30vh;
   width: 100%;
   position: relative;
 
