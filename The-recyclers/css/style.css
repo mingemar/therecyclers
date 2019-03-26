@@ -133,7 +133,8 @@ margin-top: 0
     bottom: 1vh;
     height: 10%;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(189, 195, 199, 0.9);
+    color: black;
   }
 
   .fa {
